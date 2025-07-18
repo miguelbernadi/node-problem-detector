@@ -1,6 +1,6 @@
 module k8s.io/node-problem-detector
 
-go 1.20
+go 1.23.0
 
 require (
 	cloud.google.com/go v0.45.1
@@ -24,7 +24,7 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.6.1
 	go.opencensus.io v0.22.4
-	golang.org/x/oauth2 v0.0.0-20190604053449-0f29369cfe45
+	golang.org/x/oauth2 v0.27.0
 	golang.org/x/sys v0.0.0-20210112080510-489259a85091
 	google.golang.org/api v0.10.0
 	k8s.io/api v0.0.0-20190816222004-e3a6b8045b0b
@@ -48,7 +48,7 @@ require (
 	github.com/gogo/protobuf v1.3.1 // indirect
 	github.com/golang/groupcache v0.0.0-20191227052852-215e87163ea7 // indirect
 	github.com/golang/protobuf v1.4.2 // indirect
-	github.com/google/go-cmp v0.4.0 // indirect
+	github.com/google/go-cmp v0.5.9 // indirect
 	github.com/google/gofuzz v1.0.0 // indirect
 	github.com/google/uuid v1.1.1 // indirect
 	github.com/googleapis/gax-go/v2 v2.0.5 // indirect
