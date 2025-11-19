@@ -1,6 +1,6 @@
 module k8s.io/node-problem-detector
 
-go 1.20
+go 1.24.0
 
 require (
 	cloud.google.com/go v0.45.1
@@ -25,7 +25,7 @@ require (
 	github.com/stretchr/testify v1.6.1
 	go.opencensus.io v0.22.4
 	golang.org/x/oauth2 v0.0.0-20190604053449-0f29369cfe45
-	golang.org/x/sys v0.0.0-20210112080510-489259a85091
+	golang.org/x/sys v0.38.0
 	google.golang.org/api v0.10.0
 	k8s.io/api v0.0.0-20190816222004-e3a6b8045b0b
 	k8s.io/apimachinery v0.0.0-20190816221834-a9f1d8a9c101
@@ -48,7 +48,7 @@ require (
 	github.com/gogo/protobuf v1.3.1 // indirect
 	github.com/golang/groupcache v0.0.0-20191227052852-215e87163ea7 // indirect
 	github.com/golang/protobuf v1.4.2 // indirect
-	github.com/google/go-cmp v0.4.0 // indirect
+	github.com/google/go-cmp v0.6.0 // indirect
 	github.com/google/gofuzz v1.0.0 // indirect
 	github.com/google/uuid v1.1.1 // indirect
 	github.com/googleapis/gax-go/v2 v2.0.5 // indirect
@@ -67,12 +67,13 @@ require (
 	github.com/prometheus/client_golang v0.9.4 // indirect
 	github.com/sirupsen/logrus v1.4.2 // indirect
 	github.com/tedsuo/ifrit v0.0.0-20180802180643-bea94bb476cc // indirect
-	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9 // indirect
-	golang.org/x/net v0.0.0-20201021035429-f5854403a974 // indirect
-	golang.org/x/sync v0.0.0-20201020160332-67f06af15bc9 // indirect
-	golang.org/x/text v0.3.3 // indirect
+	golang.org/x/crypto v0.45.0 // indirect
+	golang.org/x/net v0.47.0 // indirect
+	golang.org/x/sync v0.18.0 // indirect
+	golang.org/x/term v0.37.0 // indirect
+	golang.org/x/text v0.31.0 // indirect
 	golang.org/x/time v0.0.0-20191024005414-555d28b269f0 // indirect
-	golang.org/x/tools v0.0.0-20201224043029-2b0845dc783e // indirect
+	golang.org/x/tools v0.38.0 // indirect
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 	google.golang.org/appengine v1.6.5 // indirect
 	google.golang.org/genproto v0.0.0-20191230161307-f3c370f40bfb // indirect
