@@ -22,10 +22,10 @@ require (
 	github.com/prometheus/procfs v0.2.0
 	github.com/shirou/gopsutil v2.19.12+incompatible
 	github.com/spf13/pflag v1.0.5
-	github.com/stretchr/testify v1.6.1
+	github.com/stretchr/testify v1.7.0
 	go.opencensus.io v0.22.4
 	golang.org/x/oauth2 v0.0.0-20190604053449-0f29369cfe45
-	golang.org/x/sys v0.0.0-20210112080510-489259a85091
+	golang.org/x/sys v0.0.0-20220715151400-c0bba94af5f8
 	google.golang.org/api v0.10.0
 	k8s.io/api v0.0.0-20190816222004-e3a6b8045b0b
 	k8s.io/apimachinery v0.0.0-20190816221834-a9f1d8a9c101
@@ -58,14 +58,13 @@ require (
 	github.com/imdario/mergo v0.3.7 // indirect
 	github.com/jmespath/go-jmespath v0.0.0-20180206201540-c2b33e8439af // indirect
 	github.com/json-iterator/go v1.1.7 // indirect
-	github.com/konsorten/go-windows-terminal-sequences v1.0.2 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.2-0.20181231171920-c182affec369 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.1 // indirect
 	github.com/nxadm/tail v1.4.8 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/prometheus/client_golang v0.9.4 // indirect
-	github.com/sirupsen/logrus v1.4.2 // indirect
+	github.com/sirupsen/logrus v1.8.3 // indirect
 	github.com/tedsuo/ifrit v0.0.0-20180802180643-bea94bb476cc // indirect
 	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9 // indirect
 	golang.org/x/net v0.0.0-20201021035429-f5854403a974 // indirect
